@@ -47,10 +47,20 @@ namespace MosanedElmo3lem.UI
 
         private void button7_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(textBox1.Text) || listBox1.Items.Contains(textBox1.Text)) 
+            if (comboBox1.SelectedIndex == -1 || string.IsNullOrWhiteSpace(textBox1.Text.Trim()))  
                 return;
-            listBox1.Items.Add(textBox1.Text);
+            if (string.IsNullOrWhiteSpace(comboBox1.SelectedItem.ToString() + textBox1.Text.Trim()) || listBox1.Items.Contains(comboBox1.SelectedItem.ToString() + textBox1.Text.Trim())) 
+                return;
+            listBox1.Items.Add(comboBox1.SelectedItem.ToString() + textBox1.Text.Trim());
             textBox1.Text = string.Empty;
+        }
+
+        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (char.IsDigit(e.KeyChar) || e.KeyChar == '\b' || (char)127 == e.KeyChar)
+                e.Handled = false;
+            else
+                e.Handled = true;
         }
     }
 }
