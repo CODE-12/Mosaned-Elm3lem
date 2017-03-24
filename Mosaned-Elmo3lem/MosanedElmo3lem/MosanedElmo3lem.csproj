@@ -112,6 +112,12 @@
     <Compile Include="UI\PrepationViewer.designer.cs">
       <DependentUpon>PrepationViewer.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\PrePrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\PrePrint.Designer.cs">
+      <DependentUpon>PrePrint.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\SectionsBackupAndRestore.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -173,6 +179,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UI\PrepationViewer.resx">
       <DependentUpon>PrepationViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\PrePrint.resx">
+      <DependentUpon>PrePrint.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\SectionsBackupAndRestore.resx">
       <DependentUpon>SectionsBackupAndRestore.cs</DependentUpon>

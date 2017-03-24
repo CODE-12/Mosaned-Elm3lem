@@ -267,6 +267,11 @@ namespace MosanedElmo3lem.UI
             Pds = new DataSet("P_DS");
             Pds.ReadXml(AppDomain.CurrentDomain.BaseDirectory + @"\records.xml");
         }
+
+        private void testPrintToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new UI.PrePrint(this.dataGridView1).Show();
+        }
     }
 }
 
