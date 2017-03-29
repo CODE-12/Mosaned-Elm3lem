@@ -28,21 +28,15 @@ namespace MosanedElmo3lem.UI
         public List<string> ColumnOfHomeWork { get; set; } = new List<string>();
         public List<string> ColumnOfFileWork { get; set; } = new List<string>();
         public List<string> ColumnOfFinalTalk { get; set; } = new List<string>();
-        public DataGridView MyResult;
+        public DataTable MyResult = new DataTable();
         public PrePrint(DataGridView dgvPrinted)
         {
             InitializeComponent();
             MakeItClear(dgvPrinted);
-            CreateDGVForPrint(dgvPrinted, out MyResult);
-            DataTable Tbl = new DataTable();
-            foreach (DataGridViewColumn item in MyResult.Columns)
-            {
-                Tbl.Columns.Add(item);
-            }
-            foreach (DataGridViewRow item in MyResult.Rows)
-            {
-                this.dataGridView1.Rows.Add(item);
-            }
+            CreateDGVForPrint(dgvPrinted, ref MyResult);
+            this.dataGridView1.DataSource = MyResult;
+            this.dataGridView1.Columns[0].Width = 25;
+            this.dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
         }
 
         private void MakeItClear(DataGridView dGV)
@@ -88,28 +82,18 @@ namespace MosanedElmo3lem.UI
             }
         }
 
-        private void CreateDGVForPrint(DataGridView dGV, out DataGridView result)
+        private void CreateDGVForPrint(DataGridView dGV, ref DataTable result)
         {
-            result = new DataGridView();
-            result.Columns.Add(dGV.Columns[0].HeaderText, dGV.Columns[0].HeaderText);
-            result.Columns.Add(dGV.Columns[1].HeaderText, dGV.Columns[1].HeaderText);
-            result.Columns.Add("اختبارات قصيرة نظري", "اختبارات قصيرة نظري");
-            result.Columns.Add("البحوث والمشروعات", "البحوث والمشروعات");
-            result.Columns.Add("التقارير العملية او التجارب العملية", "التقارير العملية او التجارب العملية");
-            result.Columns.Add("الملاحظة والمشاركة والتفاعل الصفي", "الملاحظة والمشاركة والتفاعل الصفي");
-            result.Columns.Add("الواجبات والمهام الادائية", "الواجبات والمهام الادائية");
-            result.Columns.Add("ملف الاعمال", "ملف الاعمال");
-            result.Columns.Add("اختبار نهائي عملي/شفهي", "اختبار نهائي عملي/شفهي");
-            //result.Columns.AddRange(new DataGridViewColumn[] {
-            //    new DataGridViewColumn(new DataGridViewTextBoxCell()) { HeaderText = dGV.Columns[0].HeaderText,Name = "1" },
-            //    new DataGridViewColumn(new DataGridViewTextBoxCell()) { HeaderText = dGV.Columns[1].HeaderText,Name = "2" },
-            //    new DataGridViewColumn(new DataGridViewTextBoxCell()) { HeaderText = "اختبارات قصيرة نظري",Name = "3" },
-            //    new DataGridViewColumn(new DataGridViewTextBoxCell()) { HeaderText = "البحوث والمشروعات" ,Name = "4"},
-            //    new DataGridViewColumn(new DataGridViewTextBoxCell()) { HeaderText = "التقارير العملية او التجارب العملية" ,Name = "5"},
-            //    new DataGridViewColumn(new DataGridViewTextBoxCell()) { HeaderText = "الملاحظة والمشاركة والتفاعل الصفي",Name = "6" },
-            //    new DataGridViewColumn(new DataGridViewTextBoxCell()) { HeaderText = "الواجبات والمهام الادائية",Name = "7" },
-            //    new DataGridViewColumn(new DataGridViewTextBoxCell()) { HeaderText = "ملف الاعمال",Name = "8"},
-            //    new DataGridViewColumn(new DataGridViewTextBoxCell()) { HeaderText = "اختبار نهائي عملي/شفهي" ,Name = "9"} });
+            result = new DataTable();
+            result.Columns.Add(dGV.Columns[0].HeaderText);
+            result.Columns.Add(dGV.Columns[1].HeaderText);
+            result.Columns.Add("اختبارات قصيرة نظري");
+            result.Columns.Add("البحوث والمشروعات");
+            result.Columns.Add("التقارير العملية او التجارب العملية");
+            result.Columns.Add("الملاحظة والمشاركة والتفاعل الصفي");
+            result.Columns.Add("الواجبات والمهام الادائية");
+            result.Columns.Add("ملف الاعمال");
+            result.Columns.Add("اختبار نهائي عملي/شفهي");
             foreach (DataGridViewRow item in dGV.Rows)
             {
                 //short exam
@@ -185,7 +169,7 @@ namespace MosanedElmo3lem.UI
 
                 result.Rows.Add(new string[] {
                     item.Cells[0].Value.ToString(),
-                    item.Cells[0].Value.ToString(),
+                    item.Cells[1].Value.ToString(),
                     n1.ToString(),
                     n2.ToString(),
                     n3.ToString(),
@@ -195,6 +179,20 @@ namespace MosanedElmo3lem.UI
                     n7.ToString()
                 });
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (this.dataGridView1.Rows.Count < 1)
+                return;
+            DGVPrinterHelper.DGVPrinter Printer = new DGVPrinterHelper.DGVPrinter();
+            Printer.Title = "درجات الطلاب النهائية";
+            Printer.TitleAlignment = StringAlignment.Center;
+            Printer.SubTitle = DateTime.Now.ToString();
+            Printer.SubTitleAlignment = StringAlignment.Center;
+            Printer.Footer = "تم عمل هذا عن طريق برنامج مساند المعلم";
+            Printer.FooterAlignment = StringAlignment.Center;
+            Printer.PrintPreviewDataGridView(this.dataGridView1);
         }
     }
 }
