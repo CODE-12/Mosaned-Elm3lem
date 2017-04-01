@@ -24,3 +24,4 @@ D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\obj\Debug\af\
 D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\obj\Debug\MosanedElmo3lem.exe
 D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\obj\Debug\MosanedElmo3lem.pdb
 D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\obj\Debug\MosanedElmo3lem.UI.PrePrint.resources
+D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\bin\Debug\MaterialSkin.dll

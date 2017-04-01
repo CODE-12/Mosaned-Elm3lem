@@ -18,6 +18,15 @@ namespace MosanedElmo3lem.UI
         public StudentsSchudle()
         {
             InitializeComponent();
+            this.dataGridView1.EditingControlShowing += (a, b) => {
+                if(this.dataGridView1.CurrentCell.ColumnIndex > 1)
+                {
+                    (b.Control as TextBox).KeyPress += (t, c) => {
+                        if (!char.IsDigit(c.KeyChar))
+                            c.Handled = true;
+                    };
+                }
+            };
             if (!File.Exists(AppDomain.CurrentDomain.BaseDirectory + @"\records.xml"))
             {
                 MessageBox.Show("الملفات المطلوبة غير موجودة سيتم إنشاء نسخ جديدة ", "خطأ", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1, MessageBoxOptions.RightAlign);
@@ -62,6 +71,7 @@ namespace MosanedElmo3lem.UI
                 this.dataGridView1.DataSource = null;
                 this.dataGridView1.Rows.Clear();
                 this.dataGridView1.Columns.Clear();
+                //Pds.Tables[Slc.comboBox1.SelectedItem.ToString()].Columns[3].DataType = typeof(int);
                 this.dataGridView1.DataSource = Pds.Tables[Slc.comboBox1.SelectedItem.ToString()];
                 Slc.Close();
                 Slc.Dispose();
@@ -77,9 +87,16 @@ namespace MosanedElmo3lem.UI
 
         private void إغلاقToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.dataGridView1.DataSource = null;
-            this.dataGridView1.Rows.Clear();
-            this.dataGridView1.Columns.Clear();
+            try
+            {
+                this.dataGridView1.DataSource = null;
+                this.dataGridView1.Rows.Clear();
+                this.dataGridView1.Columns.Clear();
+            }
+            catch (Exception)
+            {
+
+            }
         }
 
         private void إضافةجديدةToolStripMenuItem_Click(object sender, EventArgs e)
@@ -166,7 +183,7 @@ namespace MosanedElmo3lem.UI
                     Pds.Tables[Slc.comboBox1.SelectedItem.ToString()].Columns.Add("اسم الطالب", typeof(string));
                     for (int i = 0; i < EC.listBox1.Items.Count; i++)
                     {
-                        Pds.Tables[Slc.comboBox1.SelectedItem.ToString()].Columns.Add(EC.listBox1.Items[i].ToString(), typeof(string));
+                        Pds.Tables[Slc.comboBox1.SelectedItem.ToString()].Columns.Add(EC.listBox1.Items[i].ToString(), typeof(int));
                     }
                     MessageBox.Show("تم تعديل الشعبة", "تم تعديل الشعبة", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1, MessageBoxOptions.RightAlign);
                     EC.Close();
@@ -270,6 +287,8 @@ namespace MosanedElmo3lem.UI
 
         private void testPrintToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            if (this.dataGridView1.DataSource == null || this.dataGridView1.Rows.Count == 0)
+                return;
             new UI.PrePrint(this.dataGridView1).Show();
         }
     }

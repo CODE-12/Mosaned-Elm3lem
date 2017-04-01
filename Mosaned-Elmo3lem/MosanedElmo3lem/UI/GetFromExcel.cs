@@ -18,82 +18,44 @@ namespace MosanedElmo3lem.UI
             InitializeComponent();
             Path = P;
         }
-
-        List<char> Chr = new List<char>() { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z' };
+        
         private void GetFromExcel_Load(object sender, EventArgs e)
         {
             try
             {
-
                 Excel.Application xlApp;
                 Excel.Workbook xlWorkBook;
                 Excel.Worksheet xlWorkSheet;
-
                 xlApp = new Excel.Application();
                 xlWorkBook = xlApp.Workbooks.Open(Path, 0, true, 5, "", "", true, Excel.XlPlatform.xlWindows, "\t", false, false, 0, true, 1, 0);
                 xlWorkSheet = (Excel.Worksheet)xlWorkBook.Worksheets.get_Item(1);
-                string Col = "";
-                int Row = 0;
-                for (int i = 1; i < xlWorkSheet.Rows.Count; i++)
+                int col = 0;
+                int row = 0;
+                for (int i = 1; i < 30; i++)
                 {
-                    if (i > 100) break;
-                    try
+                    for (int i2 = 1; i2 < 30; i2++)
                     {
-                        if (xlWorkSheet.Cells[i, "T"].Value.ToString() == "اسم الطالب")
+                        if (Convert.ToString(xlWorkSheet.Cells[i, i2].Value2) == "اسم الطالب")
                         {
-                            Col = "T";
-                            Row = i;
-                        }
-                        if (xlWorkSheet.Cells[i, "U"].Value.ToString() == "اسم الطالب")
-                        {
-                            Col = "U";
-                            Row = i;
-                        }
-                        if (xlWorkSheet.Cells[i, "V"].Value.ToString() == "اسم الطالب")
-                        {
-                            Col = "V";
-                            Row = i;
-                        }
-                        if (xlWorkSheet.Cells[i, "W"].Value.ToString() == "اسم الطالب")
-                        {
-                            Col = "W";
-                            Row = i;
-                        }
-                        if (xlWorkSheet.Cells[i, "X"].Value.ToString() == "اسم الطالب")
-                        {
-                            Col = "X";
-                            Row = i;
-                        }
-                        if (xlWorkSheet.Cells[i, "Y"].Value.ToString() == "اسم الطالب")
-                        {
-                            Col = "Y";
-                            Row = i;
-                        }
-                        if (xlWorkSheet.Cells[i, "Z"].Value.ToString() == "اسم الطالب")
-                        {
-                            Col = "Z";
-                            Row = i;
+                            col = i2;
+                            row = i;
+                            goto lbl;
                         }
                     }
-                    catch
-                    { }
                 }
-                MessageBox.Show($"Row = {Row} And Col = {Col}");
-                return;
-                for (int i = 0; i < xlWorkSheet.Rows.Count; i++)
+                throw new Exception("فشل الاستيراد الرجاء التأكد من الملف");
+                lbl:;
+                for (int i = row; i < xlWorkSheet.Rows.Count; i++)
                 {
-                    if (i > 60)
-                        break;
-                    if (xlWorkSheet.Cells[i + 1, "W"].Value == null || xlWorkSheet.Cells[i + 1, "V"].Value == null)
-                        continue;
-                    dataGridView1.Rows.Add(xlWorkSheet.Cells[i + 1, Col].Value, xlWorkSheet.Cells[i + 1, ""].Value);
+                    if (string.IsNullOrWhiteSpace(Convert.ToString(xlWorkSheet.Cells[i + 1, col].Value)) || string.IsNullOrWhiteSpace(Convert.ToString(xlWorkSheet.Cells[i + 1, col + 1].Value)))
+                        return;
+                    dataGridView1.Rows.Add(Convert.ToString(xlWorkSheet.Cells[i + 1, col + 1].Value), Convert.ToString(xlWorkSheet.Cells[i + 1, col].Value));
                 }
 
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
-                MessageBox.Show("لم يتم تثبيت Excel في الجهاز", "خطأ", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1, MessageBoxOptions.RightAlign);
                 this.Close();
             }
         }

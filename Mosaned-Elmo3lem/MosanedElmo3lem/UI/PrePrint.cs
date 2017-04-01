@@ -192,6 +192,9 @@ namespace MosanedElmo3lem.UI
             Printer.SubTitleAlignment = StringAlignment.Center;
             Printer.Footer = "تم عمل هذا عن طريق برنامج مساند المعلم";
             Printer.FooterAlignment = StringAlignment.Center;
+            Printer.CellAlignment = StringAlignment.Center;
+            Printer.HeaderCellAlignment = StringAlignment.Center;
+            Printer.TableAlignment = DGVPrinterHelper.DGVPrinter.Alignment.Center;
             Printer.PrintPreviewDataGridView(this.dataGridView1);
         }
     }

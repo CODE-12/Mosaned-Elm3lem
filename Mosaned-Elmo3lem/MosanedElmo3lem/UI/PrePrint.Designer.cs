@@ -42,7 +42,7 @@
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(0, 460);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(721, 70);
+            this.button1.Size = new System.Drawing.Size(765, 70);
             this.button1.TabIndex = 0;
             this.button1.Text = "طــــباعــــة";
             this.button1.UseVisualStyleBackColor = false;
@@ -58,14 +58,14 @@
             this.dataGridView1.Location = new System.Drawing.Point(0, 0);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(721, 460);
+            this.dataGridView1.Size = new System.Drawing.Size(765, 460);
             this.dataGridView1.TabIndex = 1;
             // 
             // PrePrint
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(721, 530);
+            this.ClientSize = new System.Drawing.Size(765, 530);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
