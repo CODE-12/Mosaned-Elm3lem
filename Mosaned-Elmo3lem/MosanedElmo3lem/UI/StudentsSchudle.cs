@@ -30,7 +30,10 @@ namespace MosanedElmo3lem.UI
             if (!File.Exists(AppDomain.CurrentDomain.BaseDirectory + @"\records.xml"))
             {
                 MessageBox.Show("الملفات المطلوبة غير موجودة سيتم إنشاء نسخ جديدة ", "خطأ", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1, MessageBoxOptions.RightAlign);
-                File.Create(AppDomain.CurrentDomain.BaseDirectory + @"\records.xml");
+                FileStream fs = new FileStream(AppDomain.CurrentDomain.BaseDirectory + @"\records.xml", FileMode.OpenOrCreate);
+                fs.Close();
+                fs.Dispose();
+                fs = null;
             }
             try
             {

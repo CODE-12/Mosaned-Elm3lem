@@ -26,7 +26,7 @@ namespace MosanedElmo3lem.UI
                     item.Cells[2].Value = DateTime.Parse(item.Cells[2].Value.ToString()).ToString("d/M/yyyy");
                 }
                 catch
-                { break; }
+                { }
             }
         }
 

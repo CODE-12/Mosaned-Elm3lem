@@ -41,5 +41,10 @@ namespace MosanedElmo3lem.UI
             sc.ShowDialog();
             sc = null;
         }
+
+        private void pictureBox1_MouseHover(object sender, EventArgs e)
+        {
+
+        }
     }
 }
