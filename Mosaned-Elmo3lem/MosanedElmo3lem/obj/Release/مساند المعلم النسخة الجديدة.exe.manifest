@@ -3,7 +3,7 @@
   <asmv1:assemblyIdentity name="مساند المعلم النسخة الجديدة.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="مساند المعلم النسخة الجديدة" version="1.2.6309.4476" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="مساند المعلم النسخة الجديدة" version="1.2.6309.4512" language="neutral" processorArchitecture="msil" />
     <commandLine file="مساند المعلم النسخة الجديدة.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -55,25 +55,25 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="مساند المعلم النسخة الجديدة.exe" size="5062112">
-      <assemblyIdentity name="مساند المعلم النسخة الجديدة" version="1.2.6309.4476" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="مساند المعلم النسخة الجديدة" version="1.2.6309.4512" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>853L2nSkODRvX7JqsJvVMd9YocTGaEvusO/nbpneZBI=</dsig:DigestValue>
+        <dsig:DigestValue>GGcY0FiAP3XTdlZBM6nL2AM9wb0gNXUvrraZG8Dup7Q=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="af\مساند المعلم النسخة الجديدة.resources.dll" size="4608">
-      <assemblyIdentity name="مساند المعلم النسخة الجديدة.resources" version="1.2.6309.4476" language="af" processorArchitecture="msil" />
+      <assemblyIdentity name="مساند المعلم النسخة الجديدة.resources" version="1.2.6309.4512" language="af" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>yqbcG1UkD1EXJhUiOLCuvv/b3mFCucLDooLbzsm+oJk=</dsig:DigestValue>
+        <dsig:DigestValue>cS7gPAkSrz924NwBDFMVpJcfJSyUhcE3XBaiHdNGa4w=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
