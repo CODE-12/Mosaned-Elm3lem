@@ -32,12 +32,12 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.place3 = new System.Windows.Forms.PictureBox();
+            this.place2 = new System.Windows.Forms.PictureBox();
+            this.place1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.place3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.place2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.place1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -70,42 +70,50 @@
             this.label3.TabIndex = 5;
             this.label3.Text = "سجل المتابعة";
             // 
-            // pictureBox3
+            // place3
             // 
-            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox3.Image = global::MosanedElmo3lem.Properties.Resources._9;
-            this.pictureBox3.Location = new System.Drawing.Point(494, 12);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(221, 254);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 2;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            this.place3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.place3.Image = global::MosanedElmo3lem.Properties.Resources._7;
+            this.place3.Location = new System.Drawing.Point(494, 12);
+            this.place3.Name = "place3";
+            this.place3.Size = new System.Drawing.Size(221, 254);
+            this.place3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.place3.TabIndex = 2;
+            this.place3.TabStop = false;
+            this.place3.Click += new System.EventHandler(this.pictureBox3_Click);
+            this.place3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pictureBox3_MouseClick);
+            this.place3.MouseLeave += new System.EventHandler(this.pictureBox3_MouseLeave);
+            this.place3.MouseHover += new System.EventHandler(this.pictureBox3_MouseHover);
             // 
-            // pictureBox2
+            // place2
             // 
-            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox2.Image = global::MosanedElmo3lem.Properties.Resources._8;
-            this.pictureBox2.Location = new System.Drawing.Point(252, 12);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(236, 249);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.place2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.place2.Image = global::MosanedElmo3lem.Properties.Resources._8;
+            this.place2.Location = new System.Drawing.Point(252, 12);
+            this.place2.Name = "place2";
+            this.place2.Size = new System.Drawing.Size(236, 249);
+            this.place2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.place2.TabIndex = 1;
+            this.place2.TabStop = false;
+            this.place2.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.place2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pictureBox3_MouseClick);
+            this.place2.MouseLeave += new System.EventHandler(this.pictureBox3_MouseLeave);
+            this.place2.MouseHover += new System.EventHandler(this.pictureBox3_MouseHover);
             // 
-            // pictureBox1
+            // place1
             // 
-            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox1.Image = global::MosanedElmo3lem.Properties.Resources._1;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(234, 249);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            this.pictureBox1.MouseHover += new System.EventHandler(this.pictureBox1_MouseHover);
+            this.place1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.place1.Image = global::MosanedElmo3lem.Properties.Resources._1;
+            this.place1.Location = new System.Drawing.Point(12, 12);
+            this.place1.Name = "place1";
+            this.place1.Size = new System.Drawing.Size(234, 249);
+            this.place1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.place1.TabIndex = 0;
+            this.place1.TabStop = false;
+            this.place1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.place1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pictureBox3_MouseClick);
+            this.place1.MouseLeave += new System.EventHandler(this.pictureBox3_MouseLeave);
+            this.place1.MouseHover += new System.EventHandler(this.pictureBox3_MouseHover);
             // 
             // MainForms
             // 
@@ -116,9 +124,9 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.place3);
+            this.Controls.Add(this.place2);
+            this.Controls.Add(this.place1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForms";
@@ -126,9 +134,9 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "مساند المعلم";
             this.Load += new System.EventHandler(this.MainForms_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.place3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.place2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.place1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -136,9 +144,9 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox place1;
+        private System.Windows.Forms.PictureBox place2;
+        private System.Windows.Forms.PictureBox place3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;

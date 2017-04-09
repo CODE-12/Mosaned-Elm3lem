@@ -42,9 +42,61 @@ namespace MosanedElmo3lem.UI
             sc = null;
         }
 
-        private void pictureBox1_MouseHover(object sender, EventArgs e)
+        private void pictureBox3_MouseHover(object sender, EventArgs e)
         {
+            PictureBox controleHandel = ((PictureBox)sender);
+            switch (controleHandel.Name)
+            {
+                case "place1":
+                    controleHandel.Image = Properties.Resources._6;
+                    break;
+                case "place2":
+                    controleHandel.Image = Properties.Resources._5;
+                    break;
+                case "place3":
+                    controleHandel.Image = Properties.Resources._4;
+                    break;
+                default:
+                    break;
+            }
+        }
 
+        private void pictureBox3_MouseLeave(object sender, EventArgs e)
+        {
+            PictureBox controleHandel = ((PictureBox)sender);
+            switch (controleHandel.Name)
+            {
+                case "place1":
+                    controleHandel.Image = Properties.Resources._1;
+                    break;
+                case "place2":
+                    controleHandel.Image = Properties.Resources._8;
+                    break;
+                case "place3":
+                    controleHandel.Image = Properties.Resources._7;
+                    break;
+                default:
+                    break;
+            }
+        }
+
+        private void pictureBox3_MouseClick(object sender, MouseEventArgs e)
+        {
+            PictureBox controleHandel = ((PictureBox)sender);
+            switch (controleHandel.Name)
+            {
+                case "place1":
+                    controleHandel.Image = Properties.Resources._3;
+                    break;
+                case "place2":
+                    controleHandel.Image = Properties.Resources._2;
+                    break;
+                case "place3":
+                    controleHandel.Image = Properties.Resources._9;
+                    break;
+                default:
+                    break;
+            }
         }
     }
 }
