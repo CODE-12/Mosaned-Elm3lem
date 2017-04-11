@@ -7,14 +7,14 @@
     <framework targetVersion="4.5.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="مساند المعلم النسخة الجديدة.exe.manifest" size="5116">
+    <dependentAssembly dependencyType="install" codebase="مساند المعلم النسخة الجديدة.exe.manifest" size="5603">
       <assemblyIdentity name="مساند المعلم النسخة الجديدة.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>dWbNhe1na2043I9kCafUJejQVVo88gJp1bXOQr3NgyY=</dsig:DigestValue>
+        <dsig:DigestValue>inlm1m4fVsY5k7pgan/FZV5BBX2zCeT8jdnISaLXuKk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

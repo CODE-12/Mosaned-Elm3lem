@@ -16,7 +16,7 @@ namespace MosanedElmo3lem
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new UI.MainForms());
+            Application.Run(new UI.StartUpForm());
         }
     }
 }

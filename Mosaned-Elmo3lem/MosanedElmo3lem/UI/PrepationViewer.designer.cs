@@ -88,38 +88,38 @@
             // حفظToolStripMenuItem
             // 
             this.حفظToolStripMenuItem.Name = "حفظToolStripMenuItem";
-            this.حفظToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.حفظToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
             this.حفظToolStripMenuItem.Text = "حفظ";
             this.حفظToolStripMenuItem.Click += new System.EventHandler(this.حفظToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(180, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(184, 6);
             // 
             // حذفToolStripMenuItem
             // 
             this.حذفToolStripMenuItem.Name = "حذفToolStripMenuItem";
-            this.حذفToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.حذفToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
             this.حذفToolStripMenuItem.Text = "حذف";
             this.حذفToolStripMenuItem.Click += new System.EventHandler(this.حذفToolStripMenuItem_Click);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(180, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(184, 6);
             // 
             // نسخاحتياطيToolStripMenuItem
             // 
             this.نسخاحتياطيToolStripMenuItem.Name = "نسخاحتياطيToolStripMenuItem";
-            this.نسخاحتياطيToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.نسخاحتياطيToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
             this.نسخاحتياطيToolStripMenuItem.Text = "نسخ احتياطي";
             this.نسخاحتياطيToolStripMenuItem.Click += new System.EventHandler(this.نسخاحتياطيToolStripMenuItem_Click);
             // 
             // إستعادةنسخةاحتياطيةToolStripMenuItem
             // 
             this.إستعادةنسخةاحتياطيةToolStripMenuItem.Name = "إستعادةنسخةاحتياطيةToolStripMenuItem";
-            this.إستعادةنسخةاحتياطيةToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.إستعادةنسخةاحتياطيةToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
             this.إستعادةنسخةاحتياطيةToolStripMenuItem.Text = "إستعادة نسخة احتياطية";
             this.إستعادةنسخةاحتياطيةToolStripMenuItem.Click += new System.EventHandler(this.إستعادةنسخةاحتياطيةToolStripMenuItem_Click);
             // 

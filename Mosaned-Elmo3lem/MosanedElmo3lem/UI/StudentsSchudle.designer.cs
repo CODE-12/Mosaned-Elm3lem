@@ -40,13 +40,13 @@
             this.حفظToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.تعديلToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.testPrintToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.الطلابToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.إضافةطالبToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.النسخالإحتياToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.نسخToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.إستعادةToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.testPrintToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -83,59 +83,66 @@
             // إضافةجديدةToolStripMenuItem
             // 
             this.إضافةجديدةToolStripMenuItem.Name = "إضافةجديدةToolStripMenuItem";
-            this.إضافةجديدةToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.إضافةجديدةToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.إضافةجديدةToolStripMenuItem.Text = "إضافة جديدة";
             this.إضافةجديدةToolStripMenuItem.Click += new System.EventHandler(this.إضافةجديدةToolStripMenuItem_Click);
             // 
             // حذفToolStripMenuItem
             // 
             this.حذفToolStripMenuItem.Name = "حذفToolStripMenuItem";
-            this.حذفToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.حذفToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.حذفToolStripMenuItem.Text = "حذف";
             this.حذفToolStripMenuItem.Click += new System.EventHandler(this.حذفToolStripMenuItem_Click);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(149, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(133, 6);
             // 
             // فتحToolStripMenuItem
             // 
             this.فتحToolStripMenuItem.Name = "فتحToolStripMenuItem";
-            this.فتحToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.فتحToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.فتحToolStripMenuItem.Text = "فتح";
             this.فتحToolStripMenuItem.Click += new System.EventHandler(this.فتحToolStripMenuItem_Click);
             // 
             // إغلاقToolStripMenuItem
             // 
             this.إغلاقToolStripMenuItem.Name = "إغلاقToolStripMenuItem";
-            this.إغلاقToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.إغلاقToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.إغلاقToolStripMenuItem.Text = "إغلاق";
             this.إغلاقToolStripMenuItem.Click += new System.EventHandler(this.إغلاقToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(149, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(133, 6);
             // 
             // حفظToolStripMenuItem
             // 
             this.حفظToolStripMenuItem.Name = "حفظToolStripMenuItem";
-            this.حفظToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.حفظToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.حفظToolStripMenuItem.Text = "حفظ";
             this.حفظToolStripMenuItem.Click += new System.EventHandler(this.حفظToolStripMenuItem_Click);
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(149, 6);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(133, 6);
             // 
             // تعديلToolStripMenuItem
             // 
             this.تعديلToolStripMenuItem.Name = "تعديلToolStripMenuItem";
-            this.تعديلToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.تعديلToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.تعديلToolStripMenuItem.Text = "تعديل";
             this.تعديلToolStripMenuItem.Click += new System.EventHandler(this.تعديلToolStripMenuItem_Click);
+            // 
+            // testPrintToolStripMenuItem
+            // 
+            this.testPrintToolStripMenuItem.Name = "testPrintToolStripMenuItem";
+            this.testPrintToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
+            this.testPrintToolStripMenuItem.Text = "test print";
+            this.testPrintToolStripMenuItem.Click += new System.EventHandler(this.testPrintToolStripMenuItem_Click);
             // 
             // الطلابToolStripMenuItem
             // 
@@ -186,13 +193,6 @@
             this.dataGridView1.RowHeadersVisible = false;
             this.dataGridView1.Size = new System.Drawing.Size(934, 587);
             this.dataGridView1.TabIndex = 1;
-            // 
-            // testPrintToolStripMenuItem
-            // 
-            this.testPrintToolStripMenuItem.Name = "testPrintToolStripMenuItem";
-            this.testPrintToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.testPrintToolStripMenuItem.Text = "test print";
-            this.testPrintToolStripMenuItem.Click += new System.EventHandler(this.testPrintToolStripMenuItem_Click);
             // 
             // StudentsSchudle
             // 
