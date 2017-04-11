@@ -19,14 +19,14 @@ D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\obj\Debug\Mos
 D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\obj\Debug\MosanedElmo3lem.UI.PrePrint.resources
 D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\bin\Debug\MaterialSkin.dll
 D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\obj\Debug\MosanedElmo3lem.UI.StartUpForm.resources
-D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\bin\Debug\مساند المعلم النسخة الجديدة.exe.config
-D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\bin\Debug\مساند المعلم النسخة الجديدة.exe.manifest
-D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\bin\Debug\مساند المعلم النسخة الجديدة.application
-D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\bin\Debug\مساند المعلم النسخة الجديدة.exe
-D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\bin\Debug\مساند المعلم النسخة الجديدة.pdb
-D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\bin\Debug\af\مساند المعلم النسخة الجديدة.resources.dll
-D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\obj\Debug\af\مساند المعلم النسخة الجديدة.resources.dll
-D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\obj\Debug\مساند المعلم النسخة الجديدة.exe.manifest
-D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\obj\Debug\مساند المعلم النسخة الجديدة.application
-D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\obj\Debug\مساند المعلم النسخة الجديدة.exe
-D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\obj\Debug\مساند المعلم النسخة الجديدة.pdb
+D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\bin\Debug\مساند المعلم.exe.config
+D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\bin\Debug\مساند المعلم.exe.manifest
+D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\bin\Debug\مساند المعلم.application
+D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\bin\Debug\مساند المعلم.exe
+D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\bin\Debug\مساند المعلم.pdb
+D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\bin\Debug\af\مساند المعلم.resources.dll
+D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\obj\Debug\af\مساند المعلم.resources.dll
+D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\obj\Debug\مساند المعلم.exe.manifest
+D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\obj\Debug\مساند المعلم.application
+D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\obj\Debug\مساند المعلم.exe
+D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\obj\Debug\مساند المعلم.pdb

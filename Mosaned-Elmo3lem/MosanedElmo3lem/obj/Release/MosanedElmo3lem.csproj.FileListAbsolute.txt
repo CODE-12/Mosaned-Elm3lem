@@ -19,14 +19,14 @@ D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\obj\Release\M
 D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\obj\Release\MosanedElmo3lem.UI.AddNewSchudle.af.resources
 D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\obj\Release\MosanedElmo3lem.csproj.GenerateResource.Cache
 D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\obj\Release\MosanedElmo3lem.csprojResolveAssemblyReference.cache
-D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\bin\Release\مساند المعلم النسخة الجديدة.exe.config
-D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\bin\Release\مساند المعلم النسخة الجديدة.exe.manifest
-D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\bin\Release\مساند المعلم النسخة الجديدة.application
-D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\bin\Release\مساند المعلم النسخة الجديدة.exe
-D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\bin\Release\مساند المعلم النسخة الجديدة.pdb
-D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\bin\Release\af\مساند المعلم النسخة الجديدة.resources.dll
-D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\obj\Release\af\مساند المعلم النسخة الجديدة.resources.dll
-D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\obj\Release\مساند المعلم النسخة الجديدة.exe.manifest
-D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\obj\Release\مساند المعلم النسخة الجديدة.application
-D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\obj\Release\مساند المعلم النسخة الجديدة.exe
-D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\obj\Release\مساند المعلم النسخة الجديدة.pdb
+D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\bin\Release\مساند المعلم.exe.config
+D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\bin\Release\مساند المعلم.exe.manifest
+D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\bin\Release\مساند المعلم.application
+D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\bin\Release\مساند المعلم.exe
+D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\bin\Release\مساند المعلم.pdb
+D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\bin\Release\af\مساند المعلم.resources.dll
+D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\obj\Release\af\مساند المعلم.resources.dll
+D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\obj\Release\مساند المعلم.exe.manifest
+D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\obj\Release\مساند المعلم.application
+D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\obj\Release\مساند المعلم.exe
+D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\obj\Release\مساند المعلم.pdb
