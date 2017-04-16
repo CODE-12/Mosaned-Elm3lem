@@ -16,6 +16,8 @@ namespace MosanedElmo3alem.Classes
         PPTX
         ,
         DOCX
+        ,
+        UnKnown
     }
     public class FileImagine
     {
@@ -41,6 +43,7 @@ namespace MosanedElmo3alem.Classes
                     this.IconType = ExtensionIcon.PDF;
                     break;
                 default:
+                    this.IconType = ExtensionIcon.UnKnown;
                     break;
             }
         }

@@ -55,7 +55,7 @@ namespace MosanedElmo3lem.UI
                                 pic = 2;
                                 break;
                             default:
-                                pic = 2;
+                                pic = 5;
                                 break;
                         }
                         treeView1.Nodes[0].Nodes[i].Nodes[m].Nodes.Add(RemoveExtension(Prim[i].ChildsSection[m].Childs[n].FileName), RemoveExtension(Prim[i].ChildsSection[m].Childs[n].FileName), pic, pic);
@@ -82,23 +82,22 @@ namespace MosanedElmo3lem.UI
                 if (e.Node.Parent.Parent.Parent.Text == "الرئيسية")
                 {
                     string Extension = "";
-                    switch (e.Node.ImageIndex)
+                    string path = Path.GetFullPath(@"Data\" + e.Node.Parent.Parent.Text + @"\" + e.Node.Parent.Text + @"\" + e.Node.Text);
+                    DirectoryInfo dInf = new DirectoryInfo(Path.GetDirectoryName(path));
+                    foreach (var item in dInf.GetFiles())
                     {
-                        case 0:
-                            return;
-                        case 1:
-                            return;
-                        case 2:
-                            Extension = ".docx";
+                        if (item.Name.StartsWith(e.Node.Text))
+                        {
+                            Extension = Path.GetExtension(item.FullName);
                             break;
-                        case 3:
-                            Extension = ".pdf";
-                            break;
-                        case 4:
-                            Extension = ".pptx";
-                            break;
+                        }
                     }
-                    Run(e.Node.Parent.Parent.Text + @"\" + e.Node.Parent.Text + @"\" + e.Node.Text + Extension);
+
+                    path += Extension;
+                    if (File.Exists(path))
+                        Run(path);
+                    else
+                        MessageBox.Show("الملف غير موجود!!", "خطا", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1, MessageBoxOptions.RightAlign);
                 }
             }
             catch { }
@@ -114,7 +113,7 @@ namespace MosanedElmo3lem.UI
 
         private void Run(string SPath)
         {
-            SPath = AppDomain.CurrentDomain.BaseDirectory + @"\Data\" + SPath;
+            //SPath = AppDomain.CurrentDomain.BaseDirectory + @"\Data\" + SPath;
             try
             {
                 if (string.IsNullOrWhiteSpace(SPath))

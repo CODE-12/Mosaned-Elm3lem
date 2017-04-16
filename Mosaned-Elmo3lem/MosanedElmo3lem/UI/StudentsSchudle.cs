@@ -22,8 +22,10 @@ namespace MosanedElmo3lem.UI
                 if(this.dataGridView1.CurrentCell.ColumnIndex > 1)
                 {
                     (b.Control as TextBox).KeyPress += (t, c) => {
-                        if (!char.IsDigit(c.KeyChar))
+                        if (!char.IsDigit(c.KeyChar) || (b.Control as TextBox).Text.Length > 1)
                             c.Handled = true;
+                        if (c.KeyChar == '\b' || c.KeyChar == 127) // 127 == DEL
+                            c.Handled = false;
                     };
                 }
             };
@@ -50,6 +52,8 @@ namespace MosanedElmo3lem.UI
             }
             finally
             {
+                if (Pds.Tables.Count != 0) 
+                فتحToolStripMenuItem_Click(menuStrip1, EventArgs.Empty);
             }
         }
 

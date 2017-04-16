@@ -33,7 +33,7 @@ namespace MosanedElmo3alem.Classes
             FileInfo[] FileNest = MyDir.GetFiles();
             foreach (FileInfo item in FileNest)
             {
-                if (item.Extension.ToUpper() == ".PPTX" || item.Extension.ToUpper() == ".PDF" || item.Extension.ToUpper() == ".DOCX")
+                //if (item.Extension.ToUpper() == ".PPTX" || item.Extension.ToUpper() == ".PDF" || item.Extension.ToUpper() == ".DOCX")
                     this.Childs.Add(new FileImagine(item));
             }
         }

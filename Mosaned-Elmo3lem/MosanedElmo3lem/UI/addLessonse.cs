@@ -46,7 +46,8 @@ namespace MosanedElmo3lem.UI
             OpenFileDialog Opf = new OpenFileDialog();
             Opf.Title = "اختر الدرس";
             Opf.SupportMultiDottedExtensions = true;
-            Opf.Filter = "PowerPoint|*.pptx|Word|*.docx|Pdf|*.pdf";
+            //Opf.Filter = "PowerPoint|*.pptx|Word|*.docx|Pdf|*.pdf";
+            Opf.Filter = "ALL FILES|*.*";
             if (Opf.ShowDialog() == DialogResult.OK)
             {
                 FileInfo F = new FileInfo(Opf.FileName);

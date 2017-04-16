@@ -60,6 +60,7 @@
             this.imageList1.Images.SetKeyName(2, "docx.ico");
             this.imageList1.Images.SetKeyName(3, "pdf.ico");
             this.imageList1.Images.SetKeyName(4, "ppt.ico");
+            this.imageList1.Images.SetKeyName(5, "UFile.ico");
             // 
             // button1
             // 
