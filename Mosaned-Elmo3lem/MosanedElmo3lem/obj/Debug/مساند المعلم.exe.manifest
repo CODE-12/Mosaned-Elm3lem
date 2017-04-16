@@ -4,7 +4,7 @@
   <description asmv2:iconFile="msnd-icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="مساند المعلم" version="1.2.2.3" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="مساند المعلم" version="1.2.3.1" language="neutral" processorArchitecture="msil" />
     <commandLine file="مساند المعلم.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -56,25 +56,25 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="مساند المعلم.exe" size="6189024">
-      <assemblyIdentity name="مساند المعلم" version="1.2.2.3" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="مساند المعلم" version="1.2.3.1" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>hBgeTJxhqHVL2qPcI7/lokmGNQiMUSxwgNVOTOeS3bA=</dsig:DigestValue>
+        <dsig:DigestValue>pWO7v6HShRXwn29SkwB3QA/1mLTSKQRPKwslZqRSVCU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="af\مساند المعلم.resources.dll" size="4608">
-      <assemblyIdentity name="مساند المعلم.resources" version="1.2.2.3" language="af" processorArchitecture="msil" />
+      <assemblyIdentity name="مساند المعلم.resources" version="1.2.3.1" language="af" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Tt0B10weQL024t/uugBwUy8afmX+XUMXaBA664EUUos=</dsig:DigestValue>
+        <dsig:DigestValue>3HBbkKl3vH+NZWsk+7806AQirmFNEt5p2LBWBsSB5wI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
