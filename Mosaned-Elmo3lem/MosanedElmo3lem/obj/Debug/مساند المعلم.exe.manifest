@@ -55,14 +55,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="مساند المعلم.exe" size="6189024">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="مساند المعلم.exe" size="6190560">
       <assemblyIdentity name="مساند المعلم" version="1.2.3.1" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>pWO7v6HShRXwn29SkwB3QA/1mLTSKQRPKwslZqRSVCU=</dsig:DigestValue>
+        <dsig:DigestValue>8y0/PTA4u8TTGoRdlmO/9WPOjhRhvkwiAZopKy907Pc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -74,7 +74,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>3HBbkKl3vH+NZWsk+7806AQirmFNEt5p2LBWBsSB5wI=</dsig:DigestValue>
+        <dsig:DigestValue>CuTRpwKWOJLWRVHUkrNiuRds9TosGsEZALKgVRydbAY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
