@@ -50,11 +50,6 @@ namespace MosanedElmo3lem.UI
                 fs.Dispose();
                 Pds.WriteXml(AppDomain.CurrentDomain.BaseDirectory + @"\records.xml");
             }
-            finally
-            {
-                if (Pds.Tables.Count != 0) 
-                فتحToolStripMenuItem_Click(menuStrip1, EventArgs.Empty);
-            }
         }
 
         private void StudentsSchudle_Load(object sender, EventArgs e)
