@@ -21,7 +21,7 @@ namespace MosanedElmo3lem.UI
         private void sectionViewr_Load(object sender, EventArgs e)
         {
             if (!Directory.Exists(AppDomain.CurrentDomain.BaseDirectory + @"\Data"))
-                if (MessageBox.Show("لاتوجد بيانات سيتم انشاء بيانات جديدة", "خطأ", MessageBoxButtons.OKCancel, MessageBoxIcon.Question, MessageBoxDefaultButton.Button1, MessageBoxOptions.RightAlign) == DialogResult.Cancel)
+                if (MessageBox.Show("لاتوجد بيانات هل تريد إنشاء نسخة جديدة؟", "خطأ", MessageBoxButtons.OKCancel, MessageBoxIcon.Question, MessageBoxDefaultButton.Button1, MessageBoxOptions.RightAlign) == DialogResult.Cancel)
                     return;
                 else
                     Directory.CreateDirectory(AppDomain.CurrentDomain.BaseDirectory + @"\Data");
@@ -122,7 +122,7 @@ namespace MosanedElmo3lem.UI
             }
             catch (Exception)
             {
-                MessageBox.Show("Error!!\nCan't Run this file", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
+                MessageBox.Show("خطأ لايمكن فتح الملف", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
             }
         }
 

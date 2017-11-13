@@ -30,3 +30,6 @@ D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\obj\Release\�
 D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\obj\Release\مساند المعلم.application
 D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\obj\Release\مساند المعلم.exe
 D:\Mains Project\Mosaned-Elmo3lem\Mosaned-Elmo3lem\MosanedElmo3lem\obj\Release\مساند المعلم.pdb
+D:\Projects\M3\Mosaned-Elm3lem\Mosaned-Elmo3lem\MosanedElmo3lem\obj\Release\MosanedElmo3lem.csprojResolveAssemblyReference.cache
+D:\Projects\M3\Mosaned-Elm3lem\Mosaned-Elmo3lem\MosanedElmo3lem\obj\Release\مساند المعلم.exe
+D:\Projects\M3\Mosaned-Elm3lem\Mosaned-Elmo3lem\MosanedElmo3lem\obj\Release\مساند المعلم.pdb
